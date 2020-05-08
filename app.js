@@ -1,24 +1,6 @@
 // console.log('It works');
 // console.log($);
 
-// ========>
-// Functions
-
-// let num = 0;
-// num++
-
-// const add = () => {
-//     return ++num;
-// }
-
-// const add = () => {
-//     let newNum = parseInt($input.val())++;
-// }
-
-// const minus = () => {
-//     return --num;
-// }
-
 
 // ========>
 // Event Handlers
@@ -33,14 +15,17 @@ console.log($count.html())
 console.log($input.val())
 console.log($count.html())
 
-// !! Problem: I am able to update the value of the counter but I cannot pass it to the next argument
+// !! Problem: I am able to update the value of the counter and can add and subtract, but I cannot pass new input value to the arguments
 
 // console.log(parseInt($input.val()))
 // console.log(parseInt($count.html()))
 // console.log(newnum)
 
+// ========>
+// Event Handlers
+
 $input.change(() => {
-    $count.html($input.val());
+    return $count.html($input.val());
 })
 
 const add = () => {
