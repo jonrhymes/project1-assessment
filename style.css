@@ -1,0 +1,59 @@
+body {
+    background-color: lightcoral;
+}
+
+.count-div {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.count {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.set-num {
+    font-size: 35px;
+    padding: 30px;
+    border-radius: 10px;
+    border: 5px solid goldenrod;
+    margin: 10px;
+}
+
+.plus {
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-left: 15rem;
+    border: 5px solid goldenrod;
+}
+
+.plus:hover {
+    background-color:  darkkhaki;
+}
+
+.plus:active {
+    color: white;
+}
+
+
+.minus {
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 35px;
+    margin-right: 15rem;
+    border: 5px solid goldenrod;
+}
+
+.minus:hover {
+    background-color:  darkkhaki;
+}
+
+.minus:active {
+    color: white;
+}
